@@ -8,12 +8,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(icon: new Icon(Icons.home), iconSize: 24.0, onPressed: () {}),
-        title: Text('Login Page'),
-        actions: [
-          IconButton(icon: new Icon(Icons.share), iconSize: 24.0, onPressed: (){},),
-          IconButton(icon: new Icon(Icons.camera), iconSize: 24.0, onPressed: (){},),
-          IconButton(icon: new Icon(Icons.send), iconSize: 24.0, onPressed: (){},)
-        ],
+        title: Text('Login Screen'),
       ),
       body: Center(
         child: Column(
